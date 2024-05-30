@@ -1,0 +1,120 @@
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;	
+}
+.head{
+    background-color: #0f3758;
+}
+.head .wrapper {
+	display: flex;
+	text-align: center;
+	color:white;
+	align-items: center; 
+	padding: 20px 0;	
+}	 
+.head .social {	
+	display: flex;
+    align-items: center;
+	margin-left: 40%;
+}
+.under-head .wrapper{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.under-head .buttons{
+	margin-left: 24%;
+}
+.under-head .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    color:  #0f3758;
+    border-radius: 3px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+.under-head .btn.red {
+    background-color: red;
+}
+.welcome .wrapper{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 50px 0px;
+    text-shadow: 2px 2px 4px #000000;   
+    transition: 1s;
+}
+.welcome {
+    
+    background-image: url('https://st3.depositphotos.com/12039412/16416/i/450/depositphotos_164167550-stock-photo-smiling-african-american-businessman.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+.welcome .btn {
+	display: inline-block;
+    padding: 12px 25px;
+    color:  #63666b;
+	background-color: rgb(250, 251, 251);
+    border-radius: 3px;
+    text-decoration: none;
+    list-style: none;
+	user-select: none;
+    cursor: pointer;
+}
+.welcome .btn:hover {
+    color: rgb(255, 255, 255);
+	background-color: rgb(4, 152, 61);
+}
+.service .wrapper{
+    display: flex;
+    justify-content: center;
+}
+.service .block{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    padding: 50px 0px;
+    color: #ffffff;
+}
+.block .box{
+    text-align: start;
+    margin: 10px 20px;
+    padding: 0px 0px 20px 0px;
+    background-color: #0f3758; 
+}
+.box .img{
+    width: 100%;
+}
+.title {
+    padding: 23px 0px 0px 0px;
+    margin: 0px;
+	color: #0f3758;
+	display: flex;
+	justify-content: center;
+}
+
+.causes .line {
+    margin-left: 47.3%;
+    margin-right: 47.3% ;
+}
+.line{
+    margin: 0px 55px;
+    border-bottom: 2px solid #0f3758; 
+}
+body {
+	margin: 0 0;height: 11111111111px;
+    
+}
+html {
+    user-select:none;
+}
+
+
+
